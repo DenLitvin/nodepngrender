@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}My Site{% endblock %}</title>
+
+  <!--CDN For Jquery-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.js"></script>
+  <!--CDN For Bootstrap to make this test code pretty-->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
+  {% block head %}
+  <link rel="stylesheet" href="main.css">
+  {% endblock %}
+
+</head>
+<body>
+<div class="container">
+
+  {% block content %}{% endblock %}
+</div>
+</body>
+</html>
