@@ -1,0 +1,21 @@
+# Log files & output
+*.log
+coverage
+mocha.json
+
+# Temporary files
+*~
+*.lock
+*.DS_Store
+*.swp
+*.png
+
+
+# Managed dependencies
+node_modules
+
+# IDE files
+/.idea/
+*.iml
+
+
